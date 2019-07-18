@@ -20,7 +20,7 @@ public class Drivers {
 	public static String osType;
 	public static String url;
 	
-	public void Login() throws IOException {
+	public void Logins() throws IOException {
 		
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "/src/main/resources/Regs.properties");
