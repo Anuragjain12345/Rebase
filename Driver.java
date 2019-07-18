@@ -25,7 +25,7 @@ public class Drivers {
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "/src/main/resources/Reg.properties");
 		
-		prop.load(fis);
+		prop.load(fiss);
 		browser = prop.getProperty("browser");
 		osType = prop.getProperty("osType");
 		url = prop.getProperty("login");
