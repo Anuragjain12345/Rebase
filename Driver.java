@@ -1,4 +1,4 @@
-package regJava;
+ackage regJava;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -30,7 +30,7 @@ public class Drivers {
 		osTypes = prop.getProperty("osType");
 		urls = prop.getProperty("login");
 
-		if (browser.equalsIgnoreCase("firefox")) {
+		if (browser.equalsIgnoreCase("Chrome")) {
 			if (osType.equalsIgnoreCase("Windows")) { // Set Path for the executable file
 				System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver.exe");
 				driver = new FirefoxDriver();
