@@ -28,7 +28,7 @@ public class Drivers {
 		prop.load(fis);
 		browser = prop.getProperty("browser");
 		osType = prop.getProperty("osType");
-		url = prop.getProperty("login");
+		urls = prop.getProperty("login");
 
 		if (browser.equalsIgnoreCase("firefox")) {
 			if (osType.equalsIgnoreCase("Windows")) { // Set Path for the executable file
