@@ -27,7 +27,7 @@ public class Drivers {
 		
 		prop.load(fis);
 		browser = prop.getProperty("browser");
-		osType = prop.getProperty("osType");
+		osTypes = prop.getProperty("osType");
 		urls = prop.getProperty("login");
 
 		if (browser.equalsIgnoreCase("firefox")) {
