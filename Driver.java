@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Driver {
+public class Drivers {
 	
 	public static WebDriver driver; 
 	public static String browser;
