@@ -23,7 +23,7 @@ public class Drivers {
 	public void Logins() throws IOException {
 		
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "/src/main/resources/Regs.properties");
+				System.getProperty("user.dir") + "/src/main/resources/Reg.properties");
 		
 		prop.load(fis);
 		browser = prop.getProperty("browser");
