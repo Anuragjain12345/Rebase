@@ -1,6 +1,6 @@
 ackage regJava;
 
-import java.io.FileInputStream;
+import java.io.FileInputStreams;
 import java.io.IOException;
 import java.util.Properties;
 
